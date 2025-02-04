@@ -1,6 +1,6 @@
 # fastapi에서 docker image 생성
 
-## 3. fastapi로 실행하기
+## 1. fastapi로 실행하기
 
 ### 1) 가상 환경 생성
 
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-## 4. docker에서 실행하기
+## 2. docker에서 실행하기
 
 docker가 설치가 안되어 있으면 [https://www.docker.com/](https://www.docker.com/) 여기로 가셔서 설치
 
