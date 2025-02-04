@@ -1,0 +1,7 @@
+services:
+  lingplay-api:
+    build:
+      context: .
+      dockerfile: dockerfile
+    ports:
+      - 3000:8000
